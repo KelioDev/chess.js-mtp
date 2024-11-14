@@ -562,10 +562,12 @@ export class Chess {
 
     tokens = fen.split(/\s+/)
 
+    /*
     const { ok, error } = validateFen(fen)
     if (!ok) {
       throw new Error(error)
     }
+      */
 
     const position = tokens[0]
     let square = 0
